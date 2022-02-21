@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0 
+}
+header {
+    background-color: #e1dfdf;
+    /*box shadow irá permitir fazermos sombreamento na caixa selecionada*/
+    /*0 é a sombra no eixo X*. O segundo valor é a distancia da sombra no eixo Y*/
+    /*O terceiro valor é a distancia no eixo X*/
+    box-shadow: 0 5px 10px #ccc4c4;
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+   }
+header h3 {
+    margin:0;
+    }
+header p {
+    margin:0;
+}
+
